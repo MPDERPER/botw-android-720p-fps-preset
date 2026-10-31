@@ -15,9 +15,10 @@ Source directory: https://github.com/MaxLastBreath/nx-optimizer/tree/bd98bb3c9ee
 
 License notice: https://github.com/MaxLastBreath/nx-optimizer/blob/bd98bb3c9ee7eb16c2dd3c51a8c6ecf168330cf3/LICENSE.md
 
-The revised RAR contains exactly three files: the two binaries above and `romfs/UltraCam/maxlastbreath.ini`. The revised INI SHA-256 is `9f5f19d924b38bb9fec801227ff650af656fd190d330faabe40d679bf9147733`.
+The v1.2.0 source RAR contains exactly three files: the two binaries above and `romfs/UltraCam/maxlastbreath.ini`. The v1.2.0 INI SHA-256 is `6ced7235b6a75fc0acd2ad19a4d76a51d45428431741b452e3eb6c0940887023`.
 
 The pinned upstream tree contains `LICENSE.md`, declaring CC BY-NC 2.0. Its notice is included verbatim as `LICENSE.upstream.md`. The binary files were inspected and compared, not executed. No game assets or third-party emulator binaries were found in the supplied archive.
 
 Validation is static only. No Android device, emulator installation, game session, or performance benchmark was run.
+
 

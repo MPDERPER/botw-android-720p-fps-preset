@@ -15,13 +15,14 @@ The supplied `maxlastbreath.ini` is preserved byte-for-byte.
 | Menu cap | `MenuFPS = 59` | Requested menu frame-rate limit. |
 | Quality options | `QualityImprovements = On` | Enables the named UltraCam quality option. |
 | Shadows | `ShadowResolution = 206` | Reduced shadow-resolution setting; potential visual-quality tradeoff. |
-| Render distance | `RenderDistance = 10000` | Configured render distance; no measured performance gain is claimed. |
-| Field of view | `Fov = 55` | Preset camera field of view. |
+| Shader effects | `AmbientOcclusion = Off`, `ScreenSpaceRefl = Off`, `VolumetricFog = Off`, `Bloom = Off` | Disables four named shader effects to reduce rendering work; visual quality is reduced and no independent performance gain was measured. |
+| Render distance | `RenderDistance = 5000` | Reduced from 10000 in v1.1.0; distant detail and object visibility may be reduced. |
+| Field of view | `Fov = 45` | Reduced from 55 in v1.1.0; the visible scene is narrower. |
 | Free-camera controls | `TriggerWithController = Off` | Disables the controller trigger for UltraCam free-camera functionality. |
 | Handheld / portable mode | `Width = 1280`, `Height = 720`, `OverrideHandheld_Resolution = On` | Requests the 1280 × 720 portable-mode override. |
 | Benchmark selector | `Benchmark = 1` | A configuration value only; no benchmark was run for this release. |
 
-These are configuration choices, not independently measured improvements.
+These are configuration choices, not independently measured improvements. Disabling the four shader effects, reducing render distance, and narrowing the field of view trade visual quality and visible scene detail for lower rendering cost.
 
 ## Installation on Android
 
@@ -57,4 +58,5 @@ The bundled upstream material is distributed under **Creative Commons Attributio
 ## Validation
 
 Static checks verified the archive structure, exact file copies, binary matches to the pinned upstream source, and release ZIP integrity. **No game launch, Android-device test, or independent performance benchmark was performed.**
+
 
