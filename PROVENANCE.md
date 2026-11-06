@@ -21,4 +21,17 @@ The pinned upstream tree contains `LICENSE.md`, declaring CC BY-NC 2.0. Its noti
 
 Validation is static only. No Android device, emulator installation, game session, or performance benchmark was run.
 
+## Prepared v1.3.0 900p Docked package
+
+The supplied 900p RAR contains the same two upstream executable files documented above and a new user configuration. The prepared ZIP adds only the upstream license notice.
+
+| File | SHA-256 |
+| --- | --- |
+| `exefs/main.npdm` | `7cedbb57ba93e3ab6e660490a0a7b932716854004786a2ac42d39dbf8b85e678` |
+| `exefs/subsdk3` | `1216d58cb3eb8028a905a3c88b104a1338b48cff2b1dfeac571bff7b9826dac6` |
+| `romfs/UltraCam/maxlastbreath.ini` — 900p | `7ee836ca9f63d538ea4afe0ba33859fb55005281334235d01398371f094d66d3` |
+| `botw-ultracam-900p-docked-v1.3.0.zip` | `5d5b3002c87f7fad9e5f60909b4040e112685f8a8818cd45ae37242da9be3744` |
+
+The requested BOTW Eden Stable preset is not present in the supplied files. The prepared release has not been published because reusing or renaming a TOTK preset would not verify BOTW compatibility.
+
 
