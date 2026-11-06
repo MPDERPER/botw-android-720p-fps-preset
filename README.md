@@ -27,9 +27,8 @@ The FPS values are caps and targets. I have not supplied a new BOTW benchmark fo
 
 | Asset | Purpose |
 | --- | --- |
-| [`botw-ultracam-900p-docked-v1.3.0.zip`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/botw-ultracam-900p-docked-v1.3.0.zip) | Combined BOTW ExeFS/RomFS UltraCam add-on. |
-| [`botw-eden-stable-900p-docked-v1.3.0.ini`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/botw-eden-stable-900p-docked-v1.3.0.ini) | Eden Stable per-game settings to import. |
-| [`botw-v1.3.0-SHA256SUMS.txt`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/botw-v1.3.0-SHA256SUMS.txt) | SHA-256 checksums for both files. |
+| [`BOTW Ultracam 900p FPS Optimizer.zip`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/BOTW%20Ultracam%20900p%20FPS%20Optimizer.zip) | Combined BOTW ExeFS/RomFS UltraCam add-on. |
+| [`EDEN STABLE SETTINGS.ini`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/EDEN%20STABLE%20SETTINGS.ini) | Eden Stable per-game settings to import. |
 
 ### 720p — v1.2.0
 
@@ -73,7 +72,7 @@ Compatibility with other BOTW updates has not been verified and is not advertise
 The prepared 900p archive has this effective structure:
 
 ```text
-BOTW Android 900p Docked Optimizer/
+BOTW Ultracam 900p FPS Optimizer/
 ├── exefs/
 │   ├── main.npdm
 │   └── subsdk3
@@ -96,7 +95,7 @@ The 900p INI preserves `OverrideHandheld_Resolution = False`. Without Docked Mod
 
 ## 4. Import the BOTW Eden Stable preset
 
-The release INI is an Eden per-game configuration. It is not `romfs/UltraCam/maxlastbreath.ini` and it must not be copied into the mod folder. At my direction, it contains the same supplied Stable settings as the TOTK release under a separate BOTW filename.
+The release INI is an Eden per-game configuration. It is not `romfs/UltraCam/maxlastbreath.ini` and it must not be copied into the mod folder. At my direction, the same supplied `EDEN STABLE SETTINGS.ini` is included in both the TOTK and BOTW releases.
 
 1. Back up your current BOTW per-game settings.
 2. Download the BOTW Eden Stable INI from the matching release.

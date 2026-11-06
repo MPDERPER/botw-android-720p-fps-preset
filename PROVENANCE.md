@@ -30,8 +30,8 @@ The supplied 900p RAR contains the same two upstream executable files documented
 | `exefs/main.npdm` | `7cedbb57ba93e3ab6e660490a0a7b932716854004786a2ac42d39dbf8b85e678` |
 | `exefs/subsdk3` | `1216d58cb3eb8028a905a3c88b104a1338b48cff2b1dfeac571bff7b9826dac6` |
 | `romfs/UltraCam/maxlastbreath.ini` — 900p | `7ee836ca9f63d538ea4afe0ba33859fb55005281334235d01398371f094d66d3` |
-| `botw-ultracam-900p-docked-v1.3.0.zip` | `5d5b3002c87f7fad9e5f60909b4040e112685f8a8818cd45ae37242da9be3744` |
+| `BOTW Ultracam 900p FPS Optimizer.zip` | `a51173edf81232eca84b2bec9d9b397e01d28a2b0f184aed7341ee4ea40bd453` |
 
-At MPDERPER's explicit direction, the same user-supplied `EDEN STABLE SETTINGS.ini` is published under separate TOTK and BOTW filenames. The BOTW copy is byte-for-byte identical to the supplied file and has SHA-256 `ab9fcccc986a52b0a791324fff84939511fb9aec52e524ea08826d913b3bc665`. It intentionally retains `use_docked_mode\default = true`, `use_docked_mode = 0`, and `scaling_filter = 0`; 900p users must manually enable Docked Mode after import. The Eden export does not contain a Nintendo title ID, so this game-specific use follows the user's explicit instruction rather than an embedded identifier.
+At MPDERPER's explicit direction, the same user-supplied `EDEN STABLE SETTINGS.ini` is published in both the TOTK and BOTW releases under its original filename. The BOTW copy is byte-for-byte identical to the supplied file and has SHA-256 `ab9fcccc986a52b0a791324fff84939511fb9aec52e524ea08826d913b3bc665`. It intentionally retains `use_docked_mode\default = true`, `use_docked_mode = 0`, and `scaling_filter = 0`; 900p users must manually enable Docked Mode after import. The Eden export does not contain a Nintendo title ID, so this use follows the user's explicit instruction rather than an embedded identifier.
 
 

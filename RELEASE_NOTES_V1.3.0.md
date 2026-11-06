@@ -8,9 +8,8 @@ This release adds my 1600 × 900 Docked quality preset and supplied Eden Stable 
 
 ## Included files
 
-- `botw-ultracam-900p-docked-v1.3.0.zip` — combined ExeFS/RomFS BOTW UltraCam add-on.
-- `botw-eden-stable-900p-docked-v1.3.0.ini` — Eden Stable per-game settings to import.
-- `botw-v1.3.0-SHA256SUMS.txt` — checksums for the ZIP and INI.
+- `BOTW Ultracam 900p FPS Optimizer.zip` — combined ExeFS/RomFS BOTW UltraCam add-on.
+- `EDEN STABLE SETTINGS.ini` — Eden Stable per-game settings to import.
 
 ## UltraCam configuration
 
@@ -30,7 +29,7 @@ No new BOTW benchmark was supplied. The 60 FPS values are configuration targets,
 
 ## Eden Stable preset
 
-At my direction, the same supplied `EDEN STABLE SETTINGS.ini` is included in both game repositories under separate game-specific filenames. The BOTW asset is byte-for-byte identical to the supplied file.
+At my direction, the same supplied `EDEN STABLE SETTINGS.ini` is included in both game releases under its original filename. The BOTW asset is byte-for-byte identical to the supplied file.
 
 Back up the current per-game settings, import the BOTW INI through Eden's **Import Config** action, and review the values. **The supplied INI leaves Docked Mode off (`use_docked_mode = 0`), so enable Docked Mode manually for this 900p preset.** Select a compatible GPU driver, restart Eden, and verify the game.
 
@@ -49,6 +48,6 @@ No ROM, game update, firmware, keys, emulator binary, GPU-driver binary, or Nint
 ## SHA-256
 
 ```text
-ab9fcccc986a52b0a791324fff84939511fb9aec52e524ea08826d913b3bc665  botw-eden-stable-900p-docked-v1.3.0.ini
-5d5b3002c87f7fad9e5f60909b4040e112685f8a8818cd45ae37242da9be3744  botw-ultracam-900p-docked-v1.3.0.zip
+ab9fcccc986a52b0a791324fff84939511fb9aec52e524ea08826d913b3bc665  EDEN STABLE SETTINGS.ini
+a51173edf81232eca84b2bec9d9b397e01d28a2b0f184aed7341ee4ea40bd453  BOTW Ultracam 900p FPS Optimizer.zip
 ```

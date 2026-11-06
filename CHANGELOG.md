@@ -1,5 +1,11 @@
 # Changelog
 
+## Release filename correction — 2026-11-06
+
+- Restored the simple supplied filenames: `BOTW Ultracam 900p FPS Optimizer.zip` and `EDEN STABLE SETTINGS.ini`.
+- Removed the long generated filenames and the extra checksum download from the release page while retaining checksums in the repository and release notes.
+- Changed the outer ZIP folder name to match the supplied optimizer name. The executable and INI bytes remain unchanged.
+
 ## v1.3.0-900p-docked — 2026-11-06
 
 - Prepared a 1600 × 900 Docked quality preset for BOTW update 1.6.0.
