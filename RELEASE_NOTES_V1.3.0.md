@@ -1,12 +1,18 @@
 # BOTW Android UltraCam 900p Docked — Quality Preset + Eden Stable Settings
 
-This release is prepared but must not be published until a separate, verified BOTW Eden Stable per-game INI is supplied.
+This release adds my 1600 × 900 Docked quality preset and supplied Eden Stable settings for BOTW on Android.
 
 > **IMPORTANT: THIS PRESET TARGETS BOTW UPDATE 1.6.0 ONLY.**
 
 > **IMPORTANT: THIS IS THE 900P DOCKED PRESET. ENABLE DOCKED MODE IN EDEN STABLE BEFORE PLAYING.**
 
-## Prepared UltraCam package
+## Included files
+
+- `botw-ultracam-900p-docked-v1.3.0.zip` — combined ExeFS/RomFS BOTW UltraCam add-on.
+- `botw-eden-stable-900p-docked-v1.3.0.ini` — Eden Stable per-game settings to import.
+- `botw-v1.3.0-SHA256SUMS.txt` — checksums for the ZIP and INI.
+
+## UltraCam configuration
 
 - Resolution: **1600 × 900**
 - FPS and menu caps: `60`
@@ -22,11 +28,13 @@ The older BOTW UltraCam executable may not implement every feature from TOTK Ult
 
 No new BOTW benchmark was supplied. The 60 FPS values are configuration targets, not a guarantee of sustained performance.
 
-## Required Stable preset
+## Eden Stable preset
 
-The intended final release must also include a separately exported and verified BOTW Eden Stable per-game configuration for title ID `01007EF00011E000`. A TOTK preset will not be renamed or reused for BOTW.
+At my direction, the same supplied `EDEN STABLE SETTINGS.ini` is included in both game repositories under separate game-specific filenames. The BOTW asset is byte-for-byte identical to the supplied file.
 
-After that file is supplied, users will back up their current per-game settings, import the BOTW INI through Eden's **Import Config** action, confirm Docked Mode, select a compatible GPU driver, restart Eden, and verify the game.
+Back up the current per-game settings, import the BOTW INI through Eden's **Import Config** action, and review the values. **The supplied INI leaves Docked Mode off (`use_docked_mode = 0`), so enable Docked Mode manually for this 900p preset.** Select a compatible GPU driver, restart Eden, and verify the game.
+
+The exported INI includes a device-specific Balemuni Apex GPU-driver path. Importing it does not install that driver; users must select a compatible installed driver for their own device.
 
 ## Installation guide
 
@@ -37,3 +45,10 @@ Read the complete beginner workflow in the repository's [Installation Guide — 
 UltraCam and NX Optimizer were created by [MaxLastBreath](https://github.com/MaxLastBreath/nx-optimizer). I performed the Android configuration, adaptation, packaging, optimization, and testing with technical assistance from ChatGPT. The executable payload is unchanged and is redistributed under the upstream CC BY-NC 2.0 notice.
 
 No ROM, game update, firmware, keys, emulator binary, GPU-driver binary, or Nintendo game assets are included.
+
+## SHA-256
+
+```text
+ab9fcccc986a52b0a791324fff84939511fb9aec52e524ea08826d913b3bc665  botw-eden-stable-900p-docked-v1.3.0.ini
+5d5b3002c87f7fad9e5f60909b4040e112685f8a8818cd45ae37242da9be3744  botw-ultracam-900p-docked-v1.3.0.zip
+```

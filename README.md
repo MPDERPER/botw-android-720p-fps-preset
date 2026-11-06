@@ -2,7 +2,7 @@
 
 Android-focused UltraCam presets I configured and packaged for *The Legend of Zelda: Breath of the Wild* in Eden. The existing 720p preset remains available for performance-focused use, and the prepared 900p Docked preset is a higher-quality alternative. The underlying UltraCam and NX Optimizer software is by [MaxLastBreath](https://github.com/MaxLastBreath/nx-optimizer).
 
-**[Download the 720p release](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/tag/v1.2.0)** · **[Installation Guide — Read This First](#installation-guide--read-this-first)**
+**[Download the 900p Docked release](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/tag/v1.3.0-900p-docked)** · **[Download the 720p release](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/tag/v1.2.0)** · **[Installation Guide — Read This First](#installation-guide--read-this-first)**
 
 > **IMPORTANT: THE BOTW ULTRACAM PORT TARGETS GAME UPDATE 1.6.0 ONLY.**
 
@@ -25,7 +25,11 @@ The FPS values are caps and targets. I have not supplied a new BOTW benchmark fo
 
 ### 900p Docked — v1.3.0
 
-Publication is waiting for a separately verified BOTW Eden Stable per-game INI. The completed UltraCam ZIP will be released as `botw-ultracam-900p-docked-v1.3.0.zip`; it will not be published with a renamed TOTK preset.
+| Asset | Purpose |
+| --- | --- |
+| [`botw-ultracam-900p-docked-v1.3.0.zip`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/botw-ultracam-900p-docked-v1.3.0.zip) | Combined BOTW ExeFS/RomFS UltraCam add-on. |
+| [`botw-eden-stable-900p-docked-v1.3.0.ini`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/botw-eden-stable-900p-docked-v1.3.0.ini) | Eden Stable per-game settings to import. |
+| [`botw-v1.3.0-SHA256SUMS.txt`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/botw-v1.3.0-SHA256SUMS.txt) | SHA-256 checksums for both files. |
 
 ### 720p — v1.2.0
 
@@ -92,7 +96,7 @@ The 900p INI preserves `OverrideHandheld_Resolution = False`. Without Docked Mod
 
 ## 4. Import the BOTW Eden Stable preset
 
-This step requires a separately exported BOTW per-game configuration. It is not `romfs/UltraCam/maxlastbreath.ini` and it must not be copied into the mod folder.
+The release INI is an Eden per-game configuration. It is not `romfs/UltraCam/maxlastbreath.ini` and it must not be copied into the mod folder. At my direction, it contains the same supplied Stable settings as the TOTK release under a separate BOTW filename.
 
 1. Back up your current BOTW per-game settings.
 2. Download the BOTW Eden Stable INI from the matching release.
@@ -101,11 +105,11 @@ This step requires a separately exported BOTW per-game configuration. It is not 
 5. Use Eden's supported **Import Config** action.
 6. Select the BOTW INI and confirm the import.
 7. Review the imported settings.
-8. Verify that Docked Mode is enabled for 900p.
+8. **Enable Docked Mode manually.** The supplied INI leaves `use_docked_mode = 0`.
 9. Install and select a compatible GPU driver.
 10. Restart Eden and test the game.
 
-The exact import control can vary by Eden build. Importing a preset can overwrite per-game preferences. If the exported configuration contains a path from another Android device, install and select your own compatible GPU driver manually.
+The exact import control can vary by Eden build. Importing a preset can overwrite per-game preferences. If the exported configuration contains a path from another Android device, install and select your own compatible GPU driver manually. For this 900p setup, importing the INI is not the final Docked Mode step: turn Docked Mode on afterward.
 
 ## 5. GPU driver information
 
