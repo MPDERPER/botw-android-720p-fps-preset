@@ -11,6 +11,8 @@ This release adds my 1600 × 900 Docked quality preset and supplied Eden Stable 
 - `BOTW Ultracam 900p FPS Optimizer.zip` — combined ExeFS/RomFS BOTW UltraCam add-on.
 - `EDEN STABLE SETTINGS.ini` — Eden Stable per-game settings to import.
 
+GitHub stores spaces in release-asset filenames as periods. The release page uses the original spaced labels, while the downloaded files are `BOTW.Ultracam.900p.FPS.Optimizer.zip` and `EDEN.STABLE.SETTINGS.ini`.
+
 ## UltraCam configuration
 
 - Resolution: **1600 × 900**
@@ -48,6 +50,6 @@ No ROM, game update, firmware, keys, emulator binary, GPU-driver binary, or Nint
 ## SHA-256
 
 ```text
-ab9fcccc986a52b0a791324fff84939511fb9aec52e524ea08826d913b3bc665  EDEN STABLE SETTINGS.ini
-a51173edf81232eca84b2bec9d9b397e01d28a2b0f184aed7341ee4ea40bd453  BOTW Ultracam 900p FPS Optimizer.zip
+ab9fcccc986a52b0a791324fff84939511fb9aec52e524ea08826d913b3bc665  EDEN.STABLE.SETTINGS.ini
+a51173edf81232eca84b2bec9d9b397e01d28a2b0f184aed7341ee4ea40bd453  BOTW.Ultracam.900p.FPS.Optimizer.zip
 ```

@@ -2,6 +2,6 @@
 1216d58cb3eb8028a905a3c88b104a1338b48cff2b1dfeac571bff7b9826dac6  mod/BOTW Android 720p FPS Optimizer/exefs/subsdk3
 6ced7235b6a75fc0acd2ad19a4d76a51d45428431741b452e3eb6c0940887023  mod/BOTW Android 720p FPS Optimizer/romfs/UltraCam/maxlastbreath.ini
 
-ab9fcccc986a52b0a791324fff84939511fb9aec52e524ea08826d913b3bc665  EDEN STABLE SETTINGS.ini
-a51173edf81232eca84b2bec9d9b397e01d28a2b0f184aed7341ee4ea40bd453  BOTW Ultracam 900p FPS Optimizer.zip
+ab9fcccc986a52b0a791324fff84939511fb9aec52e524ea08826d913b3bc665  EDEN.STABLE.SETTINGS.ini
+a51173edf81232eca84b2bec9d9b397e01d28a2b0f184aed7341ee4ea40bd453  BOTW.Ultracam.900p.FPS.Optimizer.zip
 

@@ -27,8 +27,10 @@ The FPS values are caps and targets. I have not supplied a new BOTW benchmark fo
 
 | Asset | Purpose |
 | --- | --- |
-| [`BOTW Ultracam 900p FPS Optimizer.zip`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/BOTW%20Ultracam%20900p%20FPS%20Optimizer.zip) | Combined BOTW ExeFS/RomFS UltraCam add-on. |
-| [`EDEN STABLE SETTINGS.ini`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/EDEN%20STABLE%20SETTINGS.ini) | Eden Stable per-game settings to import. |
+| [`BOTW Ultracam 900p FPS Optimizer.zip`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/BOTW.Ultracam.900p.FPS.Optimizer.zip) | Combined BOTW ExeFS/RomFS UltraCam add-on. |
+| [`EDEN STABLE SETTINGS.ini`](https://github.com/MPDERPER/botw-android-720p-fps-preset/releases/download/v1.3.0-900p-docked/EDEN.STABLE.SETTINGS.ini) | Eden Stable per-game settings to import. |
+
+The release page shows the original spaced names above. GitHub stores spaces in release-asset filenames as periods, which is why the direct download URLs use dotted forms.
 
 ### 720p — v1.2.0
 
